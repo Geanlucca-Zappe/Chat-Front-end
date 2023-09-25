@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Caixa de Chat</title>
+  <link rel="stylesheet" href="chat css.css">
+  <style>
+    .texto {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="pag">
+    <header>
+      <h1 class="titulo">Caixa de Chat</h1>
+    </header>
+    <main>
+      <p class="texto">
+        <strong>Olá! Como posso ajudar você hoje?<br>
+        Estamos aqui para fornecer suporte e responder às suas perguntas da melhor maneira possível.<br>
+        Seja qual for a sua necessidade ou dúvida, estamos prontos para ajudar.</strong>
+      </p>
+
+      <div id="caixa-de-chat">
+        <div id="cabecalho-do-chat">
+          <p>Atendente: José das Tantas</p>
+        </div>
+        <div id="mensagens-do-chat">
+          <div class="mensagem mensagem-do-usuario">
+            <p><strong>Olá</strong></p>
+          </div>
+          <div class="mensagem mensagem-de-resposta">
+            <p><strong>Olá <br>  Meu nome é José, Posso ajudar?</strong></p>
+          </div>
+          <div class="mensagem mensagem-do-usuario">
+            <p><strong>Claro! Me faz um pix de 50tão na humilda</strong></p>
+          </div>
+        </div>
+        <div class="caixa-de-texto">
+          <input type="text" id="entrada-do-usuario" placeholder="Digite sua mensagem">
+          <button type="button" id="enviar-mensagem" class="botao-de-envio">Enviar</button>
+
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="Chat js.js"></script>
+</body>
+</html>

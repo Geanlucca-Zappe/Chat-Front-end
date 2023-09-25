@@ -1,0 +1,81 @@
+.titulo {
+  text-align: center;
+  padding: 20px;
+}
+
+#caixa-de-chat {
+  width: 360px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  position: fixed;
+  bottom: 10px;
+  right: 10px; 
+  max-height: 60%;
+  overflow-y: auto;
+}
+
+#mensagens-do-chat {
+  height: auto;
+  overflow-y: hidden;
+  border: 2px solid #ddd;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+#cabecalho-do-chat {
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  padding: 6px; 
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid;
+}
+
+.caixa-de-texto {
+  display: flex;
+  align-items: center;
+}
+
+#entrada-do-usuario {
+  flex-grow: 1;
+  padding: 5px;
+  margin-right: 5px;
+  background-color: #eee;
+}
+
+#botao-de-envio {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.mensagem {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  clear: both;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.mensagem-do-usuario {
+  background-color: #22dd22;
+  color: #fff;
+  float: right;
+  word-wrap: break-word;
+}
+
+.mensagem-de-resposta {
+  background-color: #D3D3D3; 
+  color: #333;
+  float: left;
+  word-wrap: break-word;
+}
